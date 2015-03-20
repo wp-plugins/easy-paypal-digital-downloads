@@ -40,12 +40,6 @@ What this plugin does is creates a unique hexidecimal string at install. Then in
 *	PayPal testing through SandBox
 *	Choose from 4 different button types.
 
-> #### Easy PayPal Digital Downloads Pro
-> Easy PayPal Digital Downloads Pro comes with the following features.<br />
->
-> Coming Soon!
->
-
 
 WPPlugin is an offical PayPal Partner. Various trademarks held by their respective owners.
 
