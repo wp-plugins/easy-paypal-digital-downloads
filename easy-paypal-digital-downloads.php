@@ -8,7 +8,7 @@ Tags: digital downloads, digital goods, goods, digital download, digital good, e
 Author: Scott Paterson
 Author URI: https://wpplugin.org
 License: GPL2
-Version: 1.0
+Version: 1.1
 */
 
 /*  Copyright 2014-2015 Scott Paterson
@@ -838,7 +838,7 @@ add_action('wp_footer', 'wpepdd_add_this_script_footer');
 
 // paypal post
 add_action('admin_post_submit-form-wpepdd', 'wpepdd_handle_form_action');
-add_action('admin_post_nopriv_submit-form-wpepdd', 'wpepdd__handle_form_action');
+add_action('admin_post_nopriv_submit-form-wpepdd', 'wpepdd_handle_form_action');
 
 function wpepdd_handle_form_action() {
 include_once ('include/checkout.php');
@@ -846,7 +846,7 @@ include_once ('include/checkout.php');
 
 // paypal response
 add_action('admin_post_submit-form-wpepdd-return', 'wpepdd_handle_form_action_return');
-add_action('admin_post_nopriv_submit-form-wpepdd-return', 'wpepdd__handle_form_action_return');
+add_action('admin_post_nopriv_submit-form-wpepdd-return', 'wpepdd_handle_form_action_return');
 
 function wpepdd_handle_form_action_return() {
 include_once ('include/orderconfirm.php');
