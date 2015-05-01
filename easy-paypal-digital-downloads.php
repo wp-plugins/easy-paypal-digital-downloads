@@ -8,7 +8,7 @@ Tags: digital downloads, digital goods, goods, digital download, digital good, e
 Author: Scott Paterson
 Author URI: https://wpplugin.org
 License: GPL2
-Version: 1.1
+Version: 1.2
 */
 
 /*  Copyright 2014-2015 Scott Paterson

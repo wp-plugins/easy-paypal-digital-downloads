@@ -5,7 +5,7 @@ Tags: digital downloads, digital goods, goods, digital download, digital good, e
 Author URI: https://wpplugin.org
 Requires at least: 3.0
 Tested up to: 4.2
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -69,6 +69,9 @@ Yes, there is no limit to the amount you can put on one post / page, or your ent
 
 == Changelog ==
 
+= 1.2 =
+* Bug fix release - attempt to fix headers already sent error caused on some servers
+
 = 1.1 =
 * Bug fix release
 
@@ -76,6 +79,9 @@ Yes, there is no limit to the amount you can put on one post / page, or your ent
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.2 =
+Bug fix release - attempt to fix headers already sent error caused on some servers
 
 = 1.1 =
 Bug fix release - please upgrade
